@@ -11,9 +11,18 @@
         <h1>Tal vez no sean reales, pero mi mejor amiga no se queda sin sus flores amarillas</h1>
         <h1>Tqm Jhuli <3</h1>
 
-    <audio autoplay loop hidden>
+    <button id="playBtn">Reproducir música</button>
+
+<audio id="musica" loop hidden>
   <source src="musica.mp3" type="audio/mpeg">
 </audio>
+
+<script>
+const audio = document.getElementById('musica');
+document.getElementById('playBtn').addEventListener('click', () => {
+  audio.play();
+});
+</script>
 
         <div class="flower-container">
             <!-- Las flores se agregarán y eliminarán aquí mediante JavaScript -->
