@@ -3,17 +3,16 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #FFC0CB; /* Fondo rosado */
+    background-color: #FFC0CB; /* fondo rosado */
 }
 
-/* Mantener centrado el contenido */
-body {
+/* Contenedor principal centrado */
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.container {
+    min-height: 100vh; /* asegura que el container ocupe toda la ventana */
     text-align: center;
 }
 
