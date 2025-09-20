@@ -1,11 +1,16 @@
-body {
+/* Aseguramos que el fondo cubra toda la página */
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    background-color: #FFC0CB; /* Fondo rosado */
+}
+
+/* Mantener centrado el contenido */
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #FFC0CB; /* rosado pastel */
 }
 
 .container {
